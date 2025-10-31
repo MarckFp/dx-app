@@ -7,7 +7,7 @@ publish = false
 
 [dependencies]
 dioxus = { version = "0.7.0-alpha.3" , features = ["router"] }
-dioxus-free-icons = { version = "0.9", features = ["hero-icons-solid"] }
+dioxus-free-icons = { version = "0.10", features = ["hero-icons-solid"] }
 web-sys = { version = "0.3.77", features = ["Window", "Navigator"] }
 
 [features]
