@@ -96,7 +96,7 @@ jobs:
 
       - name: Setup Android 🤖
         if: ${{ matrix.platform == 'android'}}
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Install Cargo Binstall 🛠️
         uses: cargo-bins/cargo-binstall@main
