@@ -180,7 +180,7 @@ jobs:
 
       - name: Upload Github Pages 📤
         if: ${{ matrix.platform == 'web'}}
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: target/dx/dx-app/release/web/public/
 
