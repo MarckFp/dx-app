@@ -191,7 +191,7 @@ jobs:
       
       - name: Install UPX 🛠️
         if: ${{ matrix.platform == 'desktop' && matrix.name != 'MacOS x64 🍏' && matrix.name != 'MacOS ARM64 🍏'}}
-        uses: crazy-max/ghaction-upx@v3
+        uses: crazy-max/ghaction-upx@v4
         with:
           install-only: true
 
