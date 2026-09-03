@@ -12,7 +12,7 @@ jobs:
       RUSTFLAGS: "-Dwarnings"
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Cache Rust 🦀
         uses: actions/cache@v5
